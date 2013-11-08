@@ -52,6 +52,11 @@ When the service is running and scanning for Bluetooth devices, Wifi scans are b
 
 This software is available under the Apache License 2.0, allowing you to use the library in your applications.
 
+## Build the library
+
+1. use the maven deployer to deploy android 4.4 ( mvn install -P 4.4 ) in https://github.com/mosabua/maven-android-sdk-deployer ( this step is needed as we need newer stuff than is available on maven-central at the moment )
+2. run "gradle build" to build the project
+
 ## Project Setup
 
 1. Do a git clone of this project
